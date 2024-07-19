@@ -1,0 +1,139 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edebe1; /* light gray background */
+    background-image: url(../Images/restbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    color:rgb(221, 221, 221);
+    padding: 20px;
+    text-align: center;
+    background-image: url(../Images/rest.png);
+    
+    background-position: center;
+    background-size:auto;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 5px;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-between;
+    border-color: #fc0000;
+    border: 1px  solid rgb(244, 244, 244);
+    background-color: #333;
+}
+
+nav li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* white text */
+}
+
+nav a:hover {
+    color: #fffbfb; /* light gray text on hover */
+    background-color: rgb(5, 5, 5);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+section {
+    background-color: #ffffff90; /* white background */
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    margin: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.location {
+    margin-top: 20px;
+}
+
+.location img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.photos {
+    margin-top: 20px;
+}
+
+.photos img {
+    width: 30%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333; /* dark gray background */
+    padding: 10px;
+    text-align: center;
+    color: #fff; /* white text */
+    clear: both;
+}
+
+h1{
+    text-align: center;
+}
+main a{
+    text-decoration:none;
+}
